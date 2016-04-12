@@ -6,12 +6,9 @@ require 'string_work_jott/version'
 Gem::Specification.new do |spec|
   spec.name          = "string_work_jott"
   spec.version       = StringWorkJott::VERSION
-  spec.authors       = ["ottjw"]
+  spec.authors       = ["https://github.com/jott7767/my_first_gem.git"]
   spec.email         = ["ottjw@yahoo.com"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
 
   spec.summary       = %q{'This is required'}
   spec.description   = %q{'So I put it in'}
